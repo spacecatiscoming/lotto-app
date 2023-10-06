@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/0d9905900b.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Lato:wght@400;700&display=swap"
+		rel="stylesheet">
+	<title>Stolotto App</title>
+</head>
+
+<body>
+<div class="App">
+	<div class="container">
+		<div class="ticket--container">
+
+			<div class="ticket--main">
+				<div class="ticket__header">
+					<p>Купить билет Лото 5 из 36</p>
+					<strong>Отметьте 5 чисел</strong>
+					<div class="counter">
+						<span class="start">0</span><span>/</span><span class="end">5</span>
+					</div>
+					<div class="progress-num-line">
+						<div class="line"></div>
+					</div>
+					<span>Поле 1.</span> 
+				</div>
+
+				<div class="number--container">
+					
+				</div>
+				<button class="buy-btn">Купить Билет</button>
+			</div>
+			<div class="lottery_raffle-container">
+				<h5>Результаты Розыгрыша:</h5>
+				<div class="set--loader">
+					<div class="loader"></div>
+						<p class="wait--text">please wait...</p>
+				</div> 
+				<ul class="computer--nums">
+					
+				</ul>
+		
+				<ul class="winner--nums">
+					
+				</ul>
+			</div>
+
+
+				<div class="ticket--container_footer" id="footer">
+					<div class="game--additions">
+						<button class="btn random--num">
+							<i class="fa-solid fa-wand-magic-sparkles"></i>
+							<!-- <span class="tooltiptext">Случайные числа</span> -->
+							Случайные числа
+						</button>
+
+						<!-- <button class="btn odd--num"><i class="fa-regular fa-circle"></i><span class="tooltiptext">Нечетные</span>
+						</button>
+
+						<button class="btn even--num"><i class="fa-solid fa-circle"></i><i
+								class="fa-solid fa-circle"></i><span class="tooltiptext">Четные</span>
+						</button> -->
+
+						<button class="clean-field"><span>X</span>Очистить</button>
+					</div>
+				</div>
+		</div>
+			<div class="result--container">
+				<div class="select--numbers">
+					<i class="fa-regular fa-hand-point-left"></i>
+					<p>Выберите числа</p>
+				</div>
+				<div class="result--ticket">
+					
+					<!-- <div class="ticket--info_btn">
+						<button class="start-draw">Start the Draw</button>
+					</div> -->
+					
+				</div>
+			</div>
+	</div>
+</div>
+
+
+
+	<script type="module" src="js/script.js"></script>
+</body>
+
+</html>
